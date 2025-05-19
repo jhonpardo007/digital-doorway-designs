@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,12 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom colors for Digital Doors
+				'digital-gold': '#F8C537',
+				'digital-black': '#000000',
+				'digital-gray': '#333333',
+				'digital-light': '#F5F5F5',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
