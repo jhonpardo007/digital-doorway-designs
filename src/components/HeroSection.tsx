@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 const HeroSection = () => {
   return <section id="inicio" className="bg-digital-black py-20 md:py-32">
@@ -19,9 +20,9 @@ const HeroSection = () => {
               </Button>
             </div>
           </div>
-          <div className="md:w-1/2 flex justify-center">
-            <div className="bg-digital-black p-8 rounded-full border-4 border-digital-gold shadow-2xl">
-              <img src="/lovable-uploads/226b30b8-7ecb-4d24-ab19-fb909908968d.png" alt="Digital Doors Logo" className="w-64 h-64 object-contain" />
+          <div className="md:w-1/2 flex justify-center items-center">
+            <div className="bg-digital-black p-10 rounded-full border-4 border-digital-gold shadow-2xl flex items-center justify-center">
+              <img src="/lovable-uploads/226b30b8-7ecb-4d24-ab19-fb909908968d.png" alt="Digital Doors Logo" className="w-80 h-80 object-contain" />
             </div>
           </div>
         </div>
