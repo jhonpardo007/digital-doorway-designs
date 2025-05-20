@@ -1,13 +1,10 @@
-
 import { Button } from "@/components/ui/button";
-
 const HeroSection = () => {
-  return (
-    <section id="inicio" className="bg-digital-black py-20 md:py-32">
+  return <section id="inicio" className="bg-digital-black py-20 md:py-32">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0">
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
+            <h1 className="text-4xl font-bold text-white mb-6 text-center md:text-5xl">
               ABRIENDO LAS PUERTAS DEL <span className="text-digital-gold">FUTURO</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-300 mb-8">
@@ -24,17 +21,11 @@ const HeroSection = () => {
           </div>
           <div className="md:w-1/2 flex justify-center">
             <div className="bg-digital-black p-8 rounded-full border-4 border-digital-gold shadow-2xl">
-              <img 
-                src="/lovable-uploads/226b30b8-7ecb-4d24-ab19-fb909908968d.png" 
-                alt="Digital Doors Logo" 
-                className="w-64 h-64 object-contain"
-              />
+              <img src="/lovable-uploads/226b30b8-7ecb-4d24-ab19-fb909908968d.png" alt="Digital Doors Logo" className="w-64 h-64 object-contain" />
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
