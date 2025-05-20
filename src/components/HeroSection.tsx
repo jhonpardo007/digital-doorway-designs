@@ -8,7 +8,7 @@ const HeroSection = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-              Soluciones <span className="text-digital-gold">Digitales</span> para sus Puertas
+              Abriendo las puertas del <span className="text-digital-gold">futuro</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-300 mb-8">
               Especialistas en instalación, reparación y mantenimiento de cerraduras digitales, sistemas de acceso y seguridad inteligente para su hogar o negocio.
