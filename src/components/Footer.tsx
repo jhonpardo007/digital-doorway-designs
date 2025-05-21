@@ -1,17 +1,10 @@
-
 import { Mail, Phone, MapPin } from "lucide-react";
-
 const Footer = () => {
-  return (
-    <footer className="bg-digital-black text-white">
+  return <footer className="bg-digital-black text-white">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
-            <img 
-              src="/lovable-uploads/226b30b8-7ecb-4d24-ab19-fb909908968d.png" 
-              alt="Digital Doors Logo" 
-              className="h-16 mb-6"
-            />
+            <img src="/lovable-uploads/226b30b8-7ecb-4d24-ab19-fb909908968d.png" alt="Digital Doors Logo" className="h-16 mb-6" />
             <p className="text-gray-300 mb-6">
               Especialistas en soluciones digitales para puertas y sistemas de acceso inteligente.
             </p>
@@ -68,11 +61,11 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-center">
                 <Phone className="text-digital-gold mr-3 h-5 w-5" />
-                <span className="text-gray-300">+52 123 456 7890</span>
+                <span className="text-gray-300">+57 3115705816 - 3118889761</span>
               </div>
               <div className="flex items-center">
                 <Mail className="text-digital-gold mr-3 h-5 w-5" />
-                <span className="text-gray-300">info@digitaldoors.com</span>
+                <span className="text-gray-300">digitaldoors@hotmail.com</span>
               </div>
               <div className="flex items-start">
                 <MapPin className="text-digital-gold mr-3 h-5 w-5 mt-1" />
@@ -86,8 +79,6 @@ const Footer = () => {
           <p>© {new Date().getFullYear()} Digital Doors Service Center. Todos los derechos reservados.</p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
