@@ -61,10 +61,7 @@ const Footer = () => {
                 <Mail className="text-digital-gold mr-3 h-5 w-5" />
                 <span className="text-gray-300">digitaldoors@hotmail.com</span>
               </div>
-              <div className="flex items-start">
-                <MapPin className="text-digital-gold mr-3 h-5 w-5 mt-1" />
-                <span className="text-gray-300">Calle Principal #123, Colonia Centro, Ciudad de México, CP 12345</span>
-              </div>
+              
             </div>
           </div>
         </div>

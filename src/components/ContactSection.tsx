@@ -86,10 +86,7 @@ const ContactSection = () => {
                 </div>
               </div>
               
-              <div className="mt-6 p-4 bg-digital-gray bg-opacity-50 rounded-lg">
-                <p className="text-digital-gold font-bold mb-1">Servicio de Emergencia</p>
-                <p className="text-gray-300">Disponible 24/7 llamando a nuestro número de emergencias</p>
-              </div>
+              
             </div>
           </div>
         </div>
