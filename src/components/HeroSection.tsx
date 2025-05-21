@@ -26,7 +26,7 @@ const HeroSection = () => {
               <img 
                 src="/lovable-uploads/226b30b8-7ecb-4d24-ab19-fb909908968d.png" 
                 alt="Digital Doors Logo" 
-                className="w-[400px] h-[400px] object-contain" 
+                className="w-[720px] h-[720px] object-contain" 
               />
             </div>
           </div>
