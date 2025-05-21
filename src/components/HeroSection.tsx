@@ -1,5 +1,6 @@
 
 import { Button } from "@/components/ui/button";
+
 const HeroSection = () => {
   return <section id="inicio" className="bg-digital-black py-20 md:py-32">
       <div className="container mx-auto px-4">
@@ -21,12 +22,17 @@ const HeroSection = () => {
             </div>
           </div>
           <div className="md:w-1/2 flex justify-center items-center">
-            <div className="bg-digital-black p-10 rounded-full border-4 border-digital-gold shadow-2xl flex items-center justify-center">
-              <img src="/lovable-uploads/226b30b8-7ecb-4d24-ab19-fb909908968d.png" alt="Digital Doors Logo" className="w-80 h-80 object-contain" />
+            <div className="flex items-center justify-center p-4">
+              <img 
+                src="/lovable-uploads/226b30b8-7ecb-4d24-ab19-fb909908968d.png" 
+                alt="Digital Doors Logo" 
+                className="w-[400px] h-[400px] object-contain" 
+              />
             </div>
           </div>
         </div>
       </div>
     </section>;
 };
+
 export default HeroSection;
