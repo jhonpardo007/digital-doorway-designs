@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 const HeroSection = () => {
   return <section id="inicio" className="bg-digital-black py-20 md:py-32">
@@ -20,7 +21,7 @@ const HeroSection = () => {
           </div>
           <div className="md:w-1/2 flex justify-center items-center px-0">
             <div className="flex items-center justify-center p-4">
-              <img src="/lovable-uploads/226b30b8-7ecb-4d24-ab19-fb909908968d.png" alt="Digital Doors Logo" className="w-[400px] h-[400px] object-contain" />
+              <img src="/lovable-uploads/226b30b8-7ecb-4d24-ab19-fb909908968d.png" alt="Digital Doors Logo" className="w-[500px] h-[500px] object-contain mx-auto" />
             </div>
           </div>
         </div>
