@@ -1,12 +1,9 @@
-
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Phone, Mail, MapPin } from "lucide-react";
-
 const ContactSection = () => {
-  return (
-    <section id="contacto" className="py-20 bg-white">
+  return <section id="contacto" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Contáctenos</h2>
@@ -57,7 +54,7 @@ const ContactSection = () => {
                 <Phone className="text-digital-gold mr-4 h-6 w-6 mt-1" />
                 <div>
                   <h4 className="font-medium mb-1">Teléfono</h4>
-                  <p className="text-gray-300">+52 123 456 7890</p>
+                  <p className="text-gray-300">+57 3115705816 - 3118889761</p>
                 </div>
               </div>
               
@@ -65,17 +62,11 @@ const ContactSection = () => {
                 <Mail className="text-digital-gold mr-4 h-6 w-6 mt-1" />
                 <div>
                   <h4 className="font-medium mb-1">Email</h4>
-                  <p className="text-gray-300">info@digitaldoors.com</p>
+                  <p className="text-gray-300">digitaldoors@hotmail.com</p>
                 </div>
               </div>
               
-              <div className="flex items-start">
-                <MapPin className="text-digital-gold mr-4 h-6 w-6 mt-1" />
-                <div>
-                  <h4 className="font-medium mb-1">Dirección</h4>
-                  <p className="text-gray-300">Calle Principal #123, Colonia Centro, Ciudad de México, CP 12345</p>
-                </div>
-              </div>
+              
             </div>
             
             <div className="mt-8">
@@ -103,8 +94,6 @@ const ContactSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default ContactSection;
