@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 const AboutSection = () => {
   return <section id="nosotros" className="py-20 bg-digital-black">
@@ -5,7 +6,13 @@ const AboutSection = () => {
         <div className="flex flex-col lg:flex-row items-center">
           <div className="lg:w-1/2 mb-10 lg:mb-0 lg:pr-16">
             <div className="relative">
-              <div className="w-full h-96 bg-digital-gold rounded-lg"></div>
+              <div className="w-full h-96 rounded-lg overflow-hidden">
+                <img 
+                  src="/lovable-uploads/fa28683b-2c0e-4729-a4d1-366ccf644cd2.png" 
+                  alt="Contacto Digital Doors" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <div className="absolute -bottom-6 -right-6 w-64 h-64 bg-digital-black p-4 rounded-lg border-2 border-digital-gold flex items-center justify-center">
                 <img src="/lovable-uploads/226b30b8-7ecb-4d24-ab19-fb909908968d.png" alt="Digital Doors Logo" className="w-full h-full object-contain" />
               </div>
