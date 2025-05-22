@@ -8,9 +8,9 @@ const AboutSection = () => {
             <div className="relative">
               <div className="w-full h-96 rounded-lg overflow-hidden">
                 <img 
-                  src="/lovable-uploads/fa28683b-2c0e-4729-a4d1-366ccf644cd2.png" 
-                  alt="Contacto Digital Doors" 
-                  className="w-full h-full object-cover"
+                  src="/lovable-uploads/4c792462-8c8f-41d0-9a62-1105457a83c0.png" 
+                  alt="Digital Security Features" 
+                  className="w-full h-full object-contain bg-black"
                 />
               </div>
               <div className="absolute -bottom-6 -right-6 w-64 h-64 bg-digital-black p-4 rounded-lg border-2 border-digital-gold flex items-center justify-center">
