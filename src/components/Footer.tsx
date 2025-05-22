@@ -1,6 +1,4 @@
-
 import { Mail, Phone, MapPin, Instagram, Youtube } from "lucide-react";
-
 const Footer = () => {
   return <footer className="bg-digital-black text-white">
       <div className="container mx-auto px-4 py-12">
@@ -37,14 +35,7 @@ const Footer = () => {
               </a>
               
               {/* TikTok Icon - Using custom SVG since there's no built-in TikTok icon in lucide-react */}
-              <a href="#" className="bg-digital-gold p-2 rounded-full text-digital-black hover:bg-white transition-colors duration-300">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5">
-                  <path d="M9 12a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"></path>
-                  <path d="M19.5 10.5V10c-1 0-2-.5-2.5-1s-1.5-2-1.5-3c-1 0-2 0-2.5.5"></path>
-                  <path d="M12 7.5c.5-1 1.5-2 3.5-2 .5 0 .938-.063 1.25-.125A.563.563 0 0 0 17.5 4M10 17c0-.5.146-.966.5-1.5m4.5.5a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"></path>
-                  <path d="M12 16a3 3 0 0 0 3-3V5.5"></path>
-                </svg>
-              </a>
+              
             </div>
           </div>
           
